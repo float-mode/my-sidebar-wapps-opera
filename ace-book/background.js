@@ -10,7 +10,7 @@ chrome.webRequest.onHeadersReceived.addListener(
     }
   },
   {
-    urls: [ "*tumblr.com*" ]
+    urls: [ "<all_urls>" ]
   },
   ["blocking", "responseHeaders"]
 );

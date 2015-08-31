@@ -1,1 +1,25 @@
-{"minimum_opera_version": "30", "update_url": "https://extension-updates.opera.com/api/omaha/update/", "name": "Web Panel", "icons": {"128": "icons/icon128.png", "48": "icons/icon48.png", "16": "icons/icon16.png"}, "sidebar_action": {"default_panel": "panel.html", "default_icon": "icons/web.png", "default_title": "Web Panel"}, "manifest_version": 2, "description": "Navigate to websites in the sidebar.", "version": "1.1.2", "background": {"scripts": ["background.js"]}, "permissions": ["storage", "bookmarks", "webRequest", "webRequestBlocking", "<all_urls>"], "developer": {"name": "Gustav Ekner"}}
+{
+	"minimum_opera_version": "30",
+	"update_url": "https://extension-updates.opera.com/api/omaha/update/",
+	"name": "sidebar custom wap",
+	"icons": {
+		"128": "icons/icon128.png",
+		"48": "icons/icon48.png",
+		"16": "icons/icon16.png"
+	},
+	"sidebar_action": {
+		"default_panel": "home.html",
+		"default_icon": "icons/web.png",
+		"default_title": "Ace Book on the side"
+	},
+	"manifest_version": 2,
+	"description": "Quick access to the Ace Book on Tumblr. on the side",
+	"version": "2.1.2",
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": ["storage", "bookmarks", "webRequest", "webRequestBlocking", "<all_urls>"],
+	"developer": {
+		"name": "Gustav Ekner + customized for my own needs by me"
+	}
+}

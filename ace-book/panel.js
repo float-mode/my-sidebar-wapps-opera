@@ -60,16 +60,16 @@ addBookmark.onclick = function createBookmark() {
   }
 }
 
-chrome.bookmarks.search("Web Panel extension", function(list) {
+chrome.bookmarks.search("my sidebar wapps" extension", function(list) {
   if (typeof list[0] == "undefined") {
-    chrome.bookmarks.create({'title': 'Web Panel extension'}, function(folder) {
+    chrome.bookmarks.create({'title': 'my sidebar wapps'}, function(folder) {
       wpb = folder.id;
       loadBookmarks();
     });
   } else {
     chrome.bookmarks.get(list[0].parentId, function(parent) {
       if (parent[0].title == "Trash") {
-        chrome.bookmarks.create({'title': 'Web Panel extension'}, function(folder) {
+        chrome.bookmarks.create({'title': 'my sidebar wapps'}, function(folder) {
           wpb = folder.id;
           loadBookmarks();
         });
